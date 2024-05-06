@@ -1,0 +1,57 @@
+<CALLOUT>
+	<GENERAL>
+		<CALLOUTMESSAGE><![CDATA[Protest]]></CALLOUTMESSAGE>
+		<FURTHERINFORMATION><![CDATA[Při blokování silnice probíhá ~r~protest~w~. Vyčkejte prosím na další pokyny od Dispečinku.]]></FURTHERINFORMATION>
+		<NOTIFICATION><![CDATA[Protest nyní ~r~přerostl v násilí.~n~~y~Urychleně reagujte.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Dohlížej na protest~w~ dokud nebude u konce. Ujistěte se, že to pokračuje hladce.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protest proběhl ~g~bez eskalace~w~, a nyní končí.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Protest pokračuje. Kontaktujte prosím ~o~hlavního demonstranta.~w~]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[Demonstranti v současné době ~g~opouštějí scénu~w~.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Přihlížející:~w~ Důstojníku, to je směšné! Potřebujeme přesunout dopravu!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Přihlížející:~w~ Blokují cestu! Přesuňte je! Není to bezpečné.]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Přihlížející:~w~ Důstojníku, řekl jsem vám, abyste je vyhnal z cesty!]]></NOTIFICATION>
+		<NOTIFICATION><![CDATA[~y~Přihlížející:~w~ Demonstranti, kteří blokují silnici, se tím mohou udusit!]]></NOTIFICATION>
+	</GENERAL>
+	<OUTCOME0>
+	</OUTCOME0>
+	<OUTCOME1>
+	</OUTCOME1>
+	<OUTCOME2>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý: ~w~Policisto, přidáváte se k věci?]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá: ~w~Policisto, přidáváte se k naši věci?]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~O co jde v tomto protestu?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý: ~w~Věříme, že změna klimatu ničí naši zemi – a naše vláda musí jednat hned!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá: ~w~Věříme, že změna klimatu ničí naši zemi – a naše vláda musí ihned jednat!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Je mi líto, musíte se přestěhovat. Pokud protestujete blokováním silnice, musíte nejprve získat povolení.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý:~w~ Ale proč? Protestujeme pro dobrou věc!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá:~w~ Ale proč? Protestujeme pro dobrou věc!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Tento protest nebyl schválen. Nemůžete jen tak zablokovat silnici.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý:~w~ Řekl jsem o tom ostatním...ale oni neposlouchali. Řeknu jim, že musíme jít.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá:~w~ Řekla jsem o tom ostatním...ale oni neposlouchali. Řeknu jim, to znovu, že musíme jít.]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Dík. Dejte si věci dohromady, aby se provoz mohl obnovit.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý:~w~ Správně, protest skončil. Pojďme teď.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá:~w~ Správně, protest skončil. Pojďme hned.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME2>
+	<OUTCOME3>
+		<DIALOGUES>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý: ~w~Podívejte se, kdo přišel podpořit náš protest!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá: ~w~Podívejte se, kdo přišel podpořit náš protest!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Proč protestujete?]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý: ~w~Ceny potravin jsou zbytečně vysoké a máme toho dost! Nebudeme hladovět!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá: ~w~Ceny potravin jsou zbytečně vysoké a máme toho dost! Nebudeme hladovět!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Tento protest se zde nemůže konat, ohrožujete veřejnou bezpečnost.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý:~w~ Nemáme zájem o přesun pane důstojníku. Toto je spravedlivý důvod proč tu být!]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá:~w~ Nemáme zájem o přesun důstojníku. Toto je spravedlivý důvod proč tu být!]]></DIALOGUE>
+			<DIALOGUE><![CDATA[~b~Ty: ~w~Potřebuji, abyste se odstěhovali, protestujete zde nelegálně.]]></DIALOGUE>
+			<DIALOGUE TARGET="M"<![CDATA[~r~Podezřelý:~w~ Strážníku, nestěhujeme se! Obtěžovat můžete někoho jiného.]]></DIALOGUE>
+			<DIALOGUE TARGET="F"<![CDATA[~r~Podezřelá:~w~ Strážníku, nestěhujeme se! Obtěžovat můžete doopravdy někoho jiného.]]></DIALOGUE>
+		</DIALOGUES>
+	</OUTCOME3>
+	<OUTCOME4>
+	</OUTCOME4>
+</CALLOUT>
+
+
+<!-- <![CDATA[]]> -->
