@@ -2,3 +2,4 @@ Language contribution thanks to:
 
 technyk
 shadowghost_official
+Wigleg
